@@ -1,0 +1,52 @@
+.main {
+    display: flex; /* Align image and text box side by side */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Space between image and text box */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 20px; /* Adds space below the main section */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left; 
+    gap : 10px;
+}
+
+.main img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 14px;
+    margin-top: 20px; /* Adds space below the main section */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    height: 400vh;
+}
+
+.blue {
+    color: #6672f9; /* Blue color for text with @ */
+}
+
+.content p {
+    color: black; /* Default color for other text */
+}
